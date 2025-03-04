@@ -88,7 +88,7 @@
 
 ### **📫 Me contacter**
 <p align="center">
-  <a href="https://linkedin.com/in/yourprofile" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://linkedin.com/in/alitamtam" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
 ---
@@ -123,4 +123,10 @@
 }
 
 .language-btn.active {
-  backg
+  background-color: #6c63ff;
+  transform: translateY(-3px);
+}
+
+.language-btn:active {
+  transform: translateY(2px);
+}
