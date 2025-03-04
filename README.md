@@ -1,35 +1,3 @@
-<style>
-.language-toggle {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 20px;
-}
-
-.language-btn {
-  background-color: #1E2A47;
-  color: white;
-  font-size: 16px;
-  padding: 10px 20px;
-  border-radius: 30px;
-  transition: all 0.3s ease-in-out;
-  text-decoration: none;
-}
-
-.language-btn:hover {
-  background-color: #6c63ff;
-  transform: translateY(-3px);
-}
-
-.language-btn.active {
-  background-color: #6c63ff;
-  transform: translateY(-3px);
-}
-
-.language-btn:active {
-  transform: translateY(2px);
-}
-</style>
 
 <h1 align="center">Hi 👋, I'm ALI TAMTAM</h1>
 
