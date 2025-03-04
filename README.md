@@ -1,8 +1,9 @@
 <h1 align="center">Hi 👋, I'm ALI TAMTAM</h1>
 
 <!-- Language Toggle -->
-<p align="center">
-  <a href="#english">English</a> | <a href="#french">Français</a>
+<p align="center" class="language-toggle">
+  <a href="#english" class="language-btn active" id="english-btn">English</a> |
+  <a href="#french" class="language-btn" id="french-btn">Français</a>
 </p>
 
 ---
@@ -27,7 +28,7 @@
 
 ### **🛠️ Tech Stack & Tools**
 <p align="center">
-  <!-- Tech stack badges here, same as before -->
+  <!-- Tech stack badges here -->
 </p>
 
 ---
@@ -72,7 +73,7 @@
 
 ### **🛠️ Stack Technique & Outils**
 <p align="center">
-  <!-- Tech stack badges here, same as before -->
+  <!-- Tech stack badges here -->
 </p>
 
 ---
@@ -94,3 +95,32 @@
 
 ### **🔥 Fun Fact**
 > "Il existe 10 types de personnes dans le monde : celles qui comprennent le binaire et celles qui ne le comprennent pas." 😆
+
+---
+
+### **CSS (Add to GitHub's Custom CSS section)**
+```css
+.language-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.language-btn {
+  background-color: #1E2A47;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+.language-btn:hover {
+  background-color: #6c63ff;
+  transform: translateY(-3px);
+}
+
+.language-btn.active {
+  backg
